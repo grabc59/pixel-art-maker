@@ -1,6 +1,8 @@
-/*body {
-  background-color: blue;
-}*/
+/*
+////////////////////////////
+//////////// CONTAINER
+////////////////////////////
+*/
 #container {
   width: 980px;
   height: 550px;
@@ -9,7 +11,11 @@
   padding: 20px;
 }
 
-
+/*
+////////////////////////////
+//////////// CANVAS
+////////////////////////////
+*/
 #canvas {
   border: 1px solid black;
   height: 462px;
@@ -18,7 +24,7 @@
   flex-wrap: wrap;
   /*flex-direction: row;*/
   /*justify-content: space-around;*/
-  align-content: space-around;
+  /*align-content: space-around;*/
   /*align-items: flex-end;*/
 }
 
@@ -32,6 +38,13 @@
   flex: 1 1 auto;
 }
 
+
+/*
+////////////////////////////
+//////////// PALETTE
+////////////////////////////
+*/
+
 #palette {
   margin: auto;
   height: 50px;
@@ -41,7 +54,10 @@
 }
 #currentColor {
   border-right: 1px solid black;
-  height: 100%;
+  /*height: 100%;*/
+  flex: 1 1 auto;
+}
+#erase {
   flex: 1 1 auto;
 }
 .colors {
@@ -50,6 +66,19 @@
   max-height: 240px;
   flex: 1 1 auto;
   width: 20px;
-  height: 100%;
+  /*height: 100%;*/
   flex-direction: row;
+}
+
+/*
+////////////////////////////
+//////////// FONTS
+////////////////////////////
+*/
+h1, h2 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: black;
+  -webkit-text-stroke: 1px white;
+  text-align: center;
 }
