@@ -3,37 +3,40 @@
 //////////// CONTAINER
 ////////////////////////////
 */
+
 #container {
-  width: 980px;
-  height: 500px;
-  margin: auto;
-  border: 1px solid black;
-  padding: 20px;
-  display: flex;
-  border-radius: 15px;
+    width: 980px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    border-radius: 15px;
 }
+
 
 /*
 ////////////////////////////
 //////////// CANVAS
 ////////////////////////////
 */
+
 #canvas {
-  border: 1px solid black;
-  height: 90%;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+    border: 1px solid black;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .pixel {
-  border: 1px solid black;
-  min-width: 10px;
-  min-height: 10px;
-  background-color: white;
-  flex: 1 1 auto;
+    border: 1px solid black;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: white;
+    flex: 1 1 auto;
 }
 
 
@@ -44,46 +47,53 @@
 */
 
 #palette {
-  height: 90%;
-  width: 50px;
-  border: 1px solid black;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  float: left;
-  margin: auto 0;
+    height: 90%;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: auto 0;
 }
+
 #currentColor {
-  border-bottom: 1px solid white;
-  flex: 1 1 auto;
-  text-align: center;
+    border-bottom: 1px solid white;
+    flex: 1 1 auto;
+    text-align: center;
 }
+
 #erase {
-  flex: 1 1 auto;
+    flex: 1 1 auto;
 }
+
 .colors {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  flex: 1 1 auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    flex: 1 1 auto;
 }
+
 
 /*
 ////////////////////////////
 //////////// FONTS
 ////////////////////////////
 */
+
 h1, h2 {
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  color: black;
-  text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
 }
+
 .material-icons {
-  text-align: center;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
+
 #logo {
-  width: 100%;
-  height: 40px;
+    width: 100%;
+    height: 40px;
 }
