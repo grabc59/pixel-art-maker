@@ -29,7 +29,7 @@
 }
 
 .pixel {
-  border: 1  px solid black;
+  border: 1px solid black;
   min-width: 10px;
   min-height: 10px;
   background-color: white;
